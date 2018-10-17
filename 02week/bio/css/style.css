@@ -1,0 +1,17 @@
+body{
+    background-color:mintcream;
+    background-image: url(https://nbccollegefootballtalk.files.wordpress.com/2011/07/michigan-wolverines-logo.gif)
+}
+h1{
+    text-align: center;
+    font-family: Times;
+    font-size: 22px;
+    color: brown;
+}
+
+article{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: navy;
+}
