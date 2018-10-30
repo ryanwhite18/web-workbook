@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>UX ATLANTIC</title>
+    <style>
+    </style>
+</head>
+<body>
+    <header class="myheader">
+        <h1 class="logo"><img src="C:\Users\rywhite\web-workbook\03week\airplane\img\logo.png" alt="UX ATLANTIC"></h1>
+        <div class="headerlinks">
+            <a href="home" style="color:white"><img class="icon" src="C:\Users\rywhite\web-workbook\03week\airplane\img\home-icon.png" alt="home icon"/>Home</a>
+            <a href="traveldeals" style="color:white"><img class="icon" src="C:\Users\rywhite\web-workbook\03week\airplane\img\deal-icon.png" alt="plane icon"/>Travel Deals</a>
+            <a href="flightschedule" style="color:white"><img class="icon" src="C:\Users\rywhite\web-workbook\03week\airplane\img\schedule-icon.png" alt="clock icon"/>Flight Schedule</a>
+            <a href="register/login" style="color:white"><img class="icon" src="C:\Users\rywhite\web-workbook\03week\airplane\img\login-icon.png" alt="login icon"/>Register/Login</a>
+        </div>
+    </header>
+    <main>
+        <article class="searchbox">
+            <div class="searchicons">
+                <button class="selectorIcon"><img class="planeicon" src="C:\Users\rywhite\web-workbook\03week\airplane\img\plane-icon.png" alt="plane icon"/></button>
+                <button class="selectorIcon"><img class="bedicon" src="C:\Users\rywhite\web-workbook\03week\airplane\img\hotel-icon.png" alt="bed icon"/></button>
+                <button class="selectorIcon"><img class="caricon" src="C:\Users\rywhite\web-workbook\03week\airplane\img\car-icon.png" alt="car icon"/></button>
+            </div>
+            <div>
+                <input type="text" class= "depart-field" placeholder="Depart">
+                <input type="text" class= "depart-field" placeholder="Arrive">
+            </div>
+            <div class="departarrivedates">
+                <input type="date" class="dates" name="departdates" value="mm/dd/yyyy">
+                <input type="date" class="dates" name="arrivedates" value="mm/dd/yyyy">
+            </div>
+            <div class="dropdown">Passengers
+                <select name="Select Passengers">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                </select>
+                <input type="radio" id="flightChoice1" name="flight" value="return">
+                <label for="flightChoice1">Return</label>
+
+                <input type="radio" id="flightChoice2" name="flight" value="one way">
+                <label for="flightChoice2">One Way</label>
+            </div>
+            <div class="searchbutton">
+                <h3 class= "submit">Search Flights</h2>
+            </div>    
+        </article>
+    </main>
+</body>
+</html>

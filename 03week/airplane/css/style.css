@@ -1,0 +1,76 @@
+body{
+    background-image: url(../img/airline.jpg);
+    background-size: cover;
+    margin: 0px;
+}
+.myheader{
+    background-color:#193A55;
+    border-bottom:2px solid white;
+    height: 85px;
+    margin-top: -2%;
+
+}
+.logo{
+    width: 30%;
+    float: left,top;
+    height: 60px;
+    padding-left: 30px;
+    padding-top: 3px;
+}
+.headerlinks{
+    float: right;
+    height: auto;
+    color: white;
+    margin-top: -3%;
+    margin-right: 5%;
+}
+.searchbox{
+        float: left,middle;
+        background-color: #003d56;
+        padding-right: 5px;
+        margin-right: 70%;
+        margin-left: 5%;
+        margin-top: 10%;
+        display: inline-block;
+}
+.searchicons{   
+}
+.planeicon{
+    background-color: #0064B6;
+    color: #0064B6;
+    width: 60px;
+    height: 30px;
+    padding: 15%;
+    float: left;
+}
+.bedicon{
+    background-color: #008E82;
+    color: #008E82;
+}
+.caricon{
+    background-color: #008E82;
+    color: #008E82;
+    margin-left: 15%;
+}
+.depart-field{
+    background-color: #003d56;
+    color: white;
+    border-color: white .5px;
+    align-items: center;
+    height: 30px;
+}
+.dates{
+    background-color: #003d56;
+    border-color: white .5px;
+    color: white;
+}
+.dropdown{
+    color: white;
+}
+.searchbutton{
+    color: white;
+    background-color: #0064B6;
+    text-align: center;
+    box-align: bottom;
+
+}
