@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+}
+.top-header{
+    color: white;
+}
+.logo{
+    height: auto;
+    border-bottom: 15px dotted white;
+}
+.headlinks{
+    color: white;
+    font-size: 20px;
+    font-family:'Concert One', cursive;
+    font-weight: bold;
+    float:right;
+    word-spacing: 5px;
+    margin-top: -10%;
+    padding-right: 30px;
+}
+.mainbox{
+    width: 325px;
+    float: center;
+
+}
+.Pickup{
+    color: white;
+    padding-right: 30px;
+    padding-left: 70px;
+    float: left;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Concert One', cursive;
+    border: 1px solid black;
+    width: 335px;
+    margin-left: 5%;
+}
+.infoentry{
+    margin-left: 15%;
+    margin-top: 10%;
+    float: left;
+    border: 1px solid black;
+}
+.Address-Field{
+    color: black;
+    font-size: 20px;
+    font-family:'Concert One', cursive;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 18px;
+    background:white;
+    padding: 20px; 
+    width: 200px;
+    height: 15px;
+    border: 1px solid black;
+}
+.dates{
+    color: black;
+    font-size: 20px;
+    font-family: 'Concert One', cursive;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 18px;
+    background:white;
+    padding: 20px; 
+    width: 200px;
+    height: 15px;
+}
+.tandc{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 15px;
+    font-family: 'Concert One',cursive;
+    font-style: italic;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+.Submit{
+    color: black;
+    font-size: 15px;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    border-radius: 15px;
+    background:white;
+    padding: 20px; 
+    padding-bottom: 30px;
+    width: 100px;
+    height: 10px;
+    margin-left: 195px;
+    align-items: center;
+}
+.Join{
+    color: white;
+    font-size: 19px;
+    font-family: 'Concert One', cursive;
+    padding-top: 25px;
+    text-align: center;
+}
+.graphicpic{
+    width: 350px;
+    height: 700px;
+    float:left;
+    color: white;
+    margin-top:10%;
+    margin-right: 20%;
+    padding-right: 20px;
+    padding-left: 0px;
+    font-size: 15px;
+    font-family: 'Concert One', cursive;
+}
