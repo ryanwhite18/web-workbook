@@ -2,10 +2,12 @@
 .Welcome{
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     background-color:#00d0c3;
     height: 400px;
     width: 100%;
+    font-size: 25px;
     color: white;
 }
 
@@ -59,23 +61,33 @@ h2{
 p{
     font-size: 14px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 /*landscape phone*/
 @media only screen and (max-width: 600px) {
     #container {
-        background-color:red;
+        background-color:white;
         /* flex-direction: wrap; */
     }
-    #flex-container{
+    .Welcome{
+        text-align: left;
+        padding-left: 30px;
+    }
+    .flex-container{
         /* flex-wrap: wrap; */
         /* flex: 25%; */
         padding: 25;
         height: 900px;
         background-color: white;
         flex-direction: column;
+        font color: black;
+    }
+    h2{
         color: black;
-
+    }
+    p{
+        color: black;
     }
 }
