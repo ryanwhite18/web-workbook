@@ -1,0 +1,98 @@
+
+.Desktop {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px;
+  }
+.box1{
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  grid-column:1 / span 2;
+  grid-row:1 / span 2;
+}
+.box2{
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  grid-column:3 / span 2;
+  grid-row:1 / span 2;
+}
+.box3{
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  grid-column:1 / span 2;
+  grid-row:3 / span 3;
+}
+.box4{
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  grid-column:3 / span 1;
+  grid-row:3 / span 2;
+}
+.box5{
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  grid-column:4 / span 1;
+  grid-row:3 / span 2;
+}
+.box6{
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  grid-column:3 / span 2;
+  grid-row:5 / span 1;
+}
+.box7{
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  grid-column:1 / span 1;
+  grid-row:6 / span 3;
+}
+.box8{
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  grid-column:2 / span 1;
+  grid-row:6 / span 3;
+}
+.box9{
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  grid-column:3 / span 1;
+  grid-row:6 / span 3;
+}
+.box10{
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  grid-column:4 / span 1;
+  grid-row:6 / span 3;
+}
+
+
+
+/*landscape phone*/
+@media only screen and (max-width: 600px) {
+  #container {
+      background-color:white;
+      /* flex-direction: wrap; */
+  }
+  .Welcome{
+      text-align: left;
+      padding-left: 30px;
+  }
+  .flex-container{
+      /* flex-wrap: wrap; */
+      /* flex: 25%; */
+      padding: 25;
+      height: 900px;
+      background-color: white;
+      flex-direction: column;
+      font color: black;
