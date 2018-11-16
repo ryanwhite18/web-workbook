@@ -1,0 +1,32 @@
+.Desktop div{
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin: auto;
+    transition: all 1s ease-out;
+}
+
+.Desktop div:nth-child(odd){
+    background-color: blue;
+}
+
+.Desktop div:nth-child(even){
+    background-color: red;
+}
+
+.Desktop:hover > .abox{
+    background-color: blue;
+    height: 100px;
+    width: 100px; 
+    transform: translateX(250px) rotate(360deg);
+    transition: all 1s;
+}
+
+.Desktop:hover > .bbox{
+    background-color: red;
+    height: 25px;
+    width: 25px;
+    transform: translateX(-250px) rotate(-360deg);
+    transition: all 1s;
+}
